@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage" />
+</div>
+
+  <body class="dark-mode">
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h2 class="logo">Vick Hernandez</h2>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle" aria-label="Toggle dark mode">☀️</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="overlay">
+        <div class="hero-content">
+            <img src="me.jpg" alt="My Photo" class="hero-image">
+            <div>
+      <h1>Hi, I'm <span class="highlight">Joevic Henandez Jr.</span></h1>
+      <p>BSIT Student From STI Pasay Edsa</p>
+      <a href="#projects" class="btn">See My Work</a>
+        </div>
+    </div>
+</div>
+  </header>
+
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p> Hi! I'm <strong>Joevic Hernandez Jr.</strong>, a 3rd Year College Student
+        with a passion for crafting elegant digital experiences. 
+        I'm currently focusing in front-end and mobile development.
+        Using HTML, CSS, and JavaScript for front-end development and 
+        java and kotlin for mobile development.
+        I'm constantly learning new technologies to expand my skill set.
+    </p>
+    <p>
+        I started becoming interested in development when I had my first phone,
+        visiting different websites and application got me curious on how they 
+        are developed and designed, now I want to make others experience that curiousity
+        when people visit the applications and websites I create.  
+    </p>
+    <p>
+        I'm currently working on a capstone project with three other people.
+        We are developing a mobile application where children can read, listen,
+        and watch Filipino Folklores, Fables, and Legends. My focus on this project
+        is to create 3d animations for the listen and watch mode of our project.
+    </p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="front-end.png" alt="Front-End Development">
+        <p>Front-End Development Capabilities</p>
+      </div>
+      <div class="skill-card">
+        <img src="blender.jpg" alt="Blender">
+        <p>3D Animator</p>
+      </div>
+      <div class="skill-card">
+        <img src="ProgLang.jpg" alt="Languages">
+        <p>Familiarity with Multiple Programming Languages</p>
+      </div>
+      <div class="skill-card">
+        <img src="mobile.jpeg" alt="Mobile">
+        <p>Mobile Development Capabilities</p>
+      </div>
+    </div>
+  </section>
+  
+
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <a href="kwentongKultura.png" target="_blank">
+            <img src="kwentongKultura.png" alt="Project 1">
+          </a>
+        <div class="project-info">
+          <h3>Kwentong Kultura</h3>
+          <p>This is an ongoing project with 3 other members, aimed to give
+            teachers learning materials for teaching literacy skills for children.
+          </p>
+        </div>
+      </div>
+      <div class="project-card">
+        <a href="match.png" target="_blank">
+            <img src="match.png" alt="Project 2">
+          </a>
+        <div class="project-info">
+          <h3>Mobile Match Game</h3>
+          <p>A mobile game that matches one tile picture with another until all tiles are turned.
+            This is a project made for submission as an activity in Mobile Systems.</p>
+        </div>
+      </div>
+    <div class="project-card">
+        <a href="Stock.jpg" target="_blank">
+            <img src="Stock.jpg" alt="Project 2">
+          </a>
+        <div class="project-info">
+          <h3>Inventory System</h3>
+          <p>This is a system submitted for Computer Programming.
+            This system can add and subtract from an existing stock record
+            through inputs made by the user.
+          </p>
+        </div>
+      </div>
+    <div class="project-card">
+        <a href="register.jpg" target="_blank">
+            <img src="register.jpg" alt="Project 2">
+          </a>
+        <div class="project-info">
+          <h3>Registration System</h3>
+          <p>This is a system that will take inputs and save them as 
+            a registration attempt.
+            This is a system submitted for Integretive Computing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline">
+    <h2>My Journey</h2>
+    <ul class="timeline-list">
+      <li><strong>2009 - 2015:</strong> Graduated Elementary at Padre Burgos Elementary School</li>
+      <li><strong>2015 - 2021:</strong> Graduated Junior High School and Senior High School at Pasay City West High School</li>
+      <li><strong>2022 - Present:</strong> Currently attending as a BSIT tertiary Student at STI Pasay Edsa</li>
+    </ul>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:youremail@example.com">hernandezjoevic@gmail.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+63 927 532 2290</a></p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/vickone14.23"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/pogiyoj14"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/vickone14"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p>&copy; 2025 Joevic Hernandez Jr. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
