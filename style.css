@@ -230,19 +230,21 @@ body {
   }
   
   .skill-card {
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    transition: transform 0.3s ease;
-  }
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px; 
+  aspect-ratio: 4 / 3; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
   
   .skill-card:hover {
     transform: scale(1.05);
